@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  fastapi_boilerplate:
+    container_name: fastapi_boilerplate_service  
+    restart: always
+    build:
+      context: .
+    ports:
+      - "8000:8000"
